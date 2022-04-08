@@ -1,0 +1,26 @@
+
+class Service {
+    public async store () {
+      return '<%= props.name %>/store';
+   }
+
+    public async index () {
+       return '<%= props.name %>/index';
+   }
+
+    public async show () {
+       return '<%= props.name %>/show';
+   }
+
+    public async edit () {
+       return '<%= props.name %>/edit';
+   }
+
+    public async destroy () {
+       return '<%= props.name %>/destroy';
+   }
+   
+}
+
+const service = new Service();
+export default service
