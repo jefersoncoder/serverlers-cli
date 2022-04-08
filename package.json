@@ -1,6 +1,6 @@
 {
   "name": "serverlers-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "serverlers-cli to framework serverlers",
   "private": false,
   "types": "build/types/types.d.ts",
