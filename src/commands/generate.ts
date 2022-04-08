@@ -39,8 +39,8 @@ module.exports = {
 
     info(`make route /${name}`)
     await patching.patch('./src/api/router.ts', {
-      after: '    private routers () {',
-      insert: `\n        this.router.use('/${name}', ${name});`,
+      after: '  private routers() {',
+      insert: `\n    this.router.use('/${name}', ${name});`,
     })
 
     info(`Generated api resources router services controllers ${name}`)
